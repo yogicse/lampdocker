@@ -1,0 +1,95 @@
+[22-Jan-2023 11:32:42] NOTICE: fpm is running, pid 1586
+[22-Jan-2023 11:32:42] NOTICE: ready to handle connections
+[22-Jan-2023 11:33:39 UTC] PHP Warning:  require(/shared/httpd/laravel/htdocs/public/../vendor/autoload.php): failed to open stream: No such file or directory in /shared/httpd/laravel/htdocs/public/index.php on line 24
+[22-Jan-2023 11:33:39 UTC] PHP Fatal error:  require(): Failed opening required '/shared/httpd/laravel/htdocs/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /shared/httpd/laravel/htdocs/public/index.php on line 24
+[22-Jan-2023 11:33:59 UTC] PHP Warning:  require(/shared/httpd/laravel/htdocs/public/../vendor/autoload.php): failed to open stream: No such file or directory in /shared/httpd/laravel/htdocs/public/index.php on line 24
+[22-Jan-2023 11:33:59 UTC] PHP Fatal error:  require(): Failed opening required '/shared/httpd/laravel/htdocs/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /shared/httpd/laravel/htdocs/public/index.php on line 24
+[22-Jan-2023 11:34:03 UTC] PHP Warning:  require(/shared/httpd/laravel/htdocs/public/../vendor/autoload.php): failed to open stream: No such file or directory in /shared/httpd/laravel/htdocs/public/index.php on line 24
+[22-Jan-2023 11:34:03 UTC] PHP Fatal error:  require(): Failed opening required '/shared/httpd/laravel/htdocs/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /shared/httpd/laravel/htdocs/public/index.php on line 24
+[22-Jan-2023 11:39:09 UTC] PHP Warning:  Uncaught ErrorException: require(/shared/httpd/laravel/htdocs/vendor/composer/../../app/Helpers/UrlShortner.php): failed to open stream: No such file or directory in /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php(55): Composer\Util\ErrorHandler::handle(2, 'require(/shared...', '/shared/httpd/l...', 55, Array)
+#1 /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php(55): require()
+#2 /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php(38): composerRequirea68c9463a07f3b4c07b766fc61e8f9c3('343e9a88bcd45d1...', '/shared/httpd/l...')
+#3 /shared/httpd/laravel/htdocs/vendor/autoload.php(25): ComposerAutoloaderInita68c9463a07f3b4c07b766fc61e8f9c3::getLoader()
+#4 /shared/httpd/laravel/htdocs/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/shared/httpd/l...')
+#5 phar:///usr/local/bin/composer-2/src/Composer/EventDispatcher/EventDispatcher.php(386): Illuminate\F in /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php on line 55
+[22-Jan-2023 11:39:09 UTC] PHP Fatal error:  composerRequirea68c9463a07f3b4c07b766fc61e8f9c3(): Failed opening required '/shared/httpd/laravel/htdocs/vendor/composer/../../app/Helpers/UrlShortner.php' (include_path='.:/usr/local/lib/php') in /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php on line 55
+[22-Jan-2023 11:39:53 UTC] PHP Warning:  Uncaught ErrorException: require(/shared/httpd/laravel/htdocs/vendor/composer/../../app/Helpers/UrlShortner.php): failed to open stream: No such file or directory in /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php(55): Composer\Util\ErrorHandler::handle(2, 'require(/shared...', '/shared/httpd/l...', 55, Array)
+#1 /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php(55): require()
+#2 /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php(38): composerRequirea68c9463a07f3b4c07b766fc61e8f9c3('343e9a88bcd45d1...', '/shared/httpd/l...')
+#3 /shared/httpd/laravel/htdocs/vendor/autoload.php(25): ComposerAutoloaderInita68c9463a07f3b4c07b766fc61e8f9c3::getLoader()
+#4 /shared/httpd/laravel/htdocs/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/shared/httpd/l...')
+#5 phar:///usr/local/bin/composer-2/src/Composer/EventDispatcher/EventDispatcher.php(386): Illuminate\F in /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php on line 55
+[22-Jan-2023 11:39:53 UTC] PHP Fatal error:  composerRequirea68c9463a07f3b4c07b766fc61e8f9c3(): Failed opening required '/shared/httpd/laravel/htdocs/vendor/composer/../../app/Helpers/UrlShortner.php' (include_path='.:/usr/local/lib/php') in /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php on line 55
+[22-Jan-2023 11:43:19 UTC] PHP Warning:  Uncaught ErrorException: require(/shared/httpd/laravel/htdocs/vendor/composer/../../app/Helpers/UrlShortner.php): failed to open stream: No such file or directory in /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php(55): Composer\Util\ErrorHandler::handle(2, 'require(/shared...', '/shared/httpd/l...', 55, Array)
+#1 /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php(55): require()
+#2 /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php(38): composerRequirea68c9463a07f3b4c07b766fc61e8f9c3('343e9a88bcd45d1...', '/shared/httpd/l...')
+#3 /shared/httpd/laravel/htdocs/vendor/autoload.php(25): ComposerAutoloaderInita68c9463a07f3b4c07b766fc61e8f9c3::getLoader()
+#4 /shared/httpd/laravel/htdocs/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/shared/httpd/l...')
+#5 phar:///usr/local/bin/composer-2/src/Composer/EventDispatcher/EventDispatcher.php(386): Illuminate\F in /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php on line 55
+[22-Jan-2023 11:43:19 UTC] PHP Fatal error:  composerRequirea68c9463a07f3b4c07b766fc61e8f9c3(): Failed opening required '/shared/httpd/laravel/htdocs/vendor/composer/../../app/Helpers/UrlShortner.php' (include_path='.:/usr/local/lib/php') in /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php on line 55
+[22-Jan-2023 11:48:18 UTC] PHP Warning:  Uncaught ErrorException: require(/shared/httpd/laravel/htdocs/vendor/composer/../../app/Helpers/UrlShortner.php): failed to open stream: No such file or directory in /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php:55
+Stack trace:
+#0 /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php(55): Composer\Util\ErrorHandler::handle(2, 'require(/shared...', '/shared/httpd/l...', 55, Array)
+#1 /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php(55): require()
+#2 /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php(38): composerRequire4ffbce7a29c33012bb40c3618864a222('343e9a88bcd45d1...', '/shared/httpd/l...')
+#3 /shared/httpd/laravel/htdocs/vendor/autoload.php(25): ComposerAutoloaderInit4ffbce7a29c33012bb40c3618864a222::getLoader()
+#4 /shared/httpd/laravel/htdocs/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/shared/httpd/l...')
+#5 phar:///usr/local/bin/composer-2/src/Composer/EventDispatcher/EventDispatcher.php(386): Illuminate\F in /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php on line 55
+[22-Jan-2023 11:48:18 UTC] PHP Fatal error:  composerRequire4ffbce7a29c33012bb40c3618864a222(): Failed opening required '/shared/httpd/laravel/htdocs/vendor/composer/../../app/Helpers/UrlShortner.php' (include_path='.:/usr/local/lib/php') in /shared/httpd/laravel/htdocs/vendor/composer/autoload_real.php on line 55
+[22-Jan-2023 12:19:48] WARNING: [pool www] child 23145 said into stderr: "memcd: forward host lookup failed: Host name lookup failure : Resource temporarily unavailable"
+[22-Jan-2023 12:20:48] WARNING: [pool www] child 23145 said into stderr: "memcd: forward host lookup failed: Host name lookup failure"
+[22-Jan-2023 12:20:48] WARNING: [pool www] child 23145 said into stderr: " : Resource temporarily unavailable"
+[22-Jan-2023 12:21:02] WARNING: [pool www] child 22404 said into stderr: "memcd: forward host lookup failed: Host name lookup failure : Resource temporarily unavailable"
+[22-Jan-2023 12:21:22] WARNING: [pool www] child 23224, script '/var/www/default/htdocs/index.php' (request: "HEAD /index.php") execution timed out (121.461959 sec), terminating
+[22-Jan-2023 12:21:23] WARNING: [pool www] child 23218, script '/var/www/default/htdocs/index.php' (request: "HEAD /index.php") execution timed out (128.656397 sec), terminating
+[22-Jan-2023 12:21:23] WARNING: [pool www] child 23208, script '/var/www/default/htdocs/index.php' (request: "HEAD /index.php") execution timed out (134.765107 sec), terminating
+[22-Jan-2023 12:21:23] WARNING: [pool www] child 23202, script '/var/www/default/htdocs/index.php' (request: "HEAD /index.php") execution timed out (142.007160 sec), terminating
+[22-Jan-2023 12:21:23] WARNING: [pool www] child 23224 exited on signal 15 (SIGTERM) after 122.315136 seconds from start
+[22-Jan-2023 12:21:23] NOTICE: [pool www] child 23606 started
+[22-Jan-2023 12:21:23] WARNING: [pool www] child 23202 exited on signal 15 (SIGTERM) after 142.997467 seconds from start
+[22-Jan-2023 12:21:23] NOTICE: [pool www] child 23607 started
+[22-Jan-2023 12:21:23] WARNING: [pool www] child 23208 exited on signal 15 (SIGTERM) after 135.758939 seconds from start
+[22-Jan-2023 12:21:23] NOTICE: [pool www] child 23608 started
+[22-Jan-2023 12:21:23] WARNING: [pool www] child 23218 exited on signal 15 (SIGTERM) after 129.465615 seconds from start
+[22-Jan-2023 12:21:23] NOTICE: [pool www] child 23609 started
+[22-Jan-2023 12:22:02] WARNING: [pool www] child 23349, script '/var/www/default/htdocs/index.php' (request: "HEAD /index.php") execution timed out (122.011509 sec), terminating
+[22-Jan-2023 12:22:02] WARNING: [pool www] child 23281, script '/var/www/default/htdocs/index.php' (request: "HEAD /index.php") execution timed out (129.425590 sec), terminating
+[22-Jan-2023 12:22:02] WARNING: [pool www] child 23259, script '/var/www/default/htdocs/index.php' (request: "HEAD /index.php") execution timed out (134.044371 sec), terminating
+[22-Jan-2023 12:22:02] WARNING: [pool www] child 23239, script '/var/www/default/htdocs/index.php' (request: "HEAD /index.php") execution timed out (147.023893 sec), terminating
+[22-Jan-2023 12:22:02] WARNING: [pool www] child 23229, script '/var/www/default/htdocs/index.php' (request: "HEAD /index.php") execution timed out (154.242559 sec), terminating
+[22-Jan-2023 12:22:03] WARNING: [pool www] child 23349 exited on signal 15 (SIGTERM) after 122.710412 seconds from start
+[22-Jan-2023 12:22:03] NOTICE: [pool www] child 23669 started
+[22-Jan-2023 12:22:03] WARNING: [pool www] child 23229 exited on signal 15 (SIGTERM) after 154.983564 seconds from start
+[22-Jan-2023 12:22:03] NOTICE: [pool www] child 23670 started
+[22-Jan-2023 12:22:03] WARNING: [pool www] child 23239 exited on signal 15 (SIGTERM) after 148.277018 seconds from start
+[22-Jan-2023 12:22:03] NOTICE: [pool www] child 23671 started
+[22-Jan-2023 12:22:03] WARNING: [pool www] child 23259 exited on signal 15 (SIGTERM) after 135.355718 seconds from start
+[22-Jan-2023 12:22:03] NOTICE: [pool www] child 23672 started
+[22-Jan-2023 12:22:03] WARNING: [pool www] child 23281 exited on signal 15 (SIGTERM) after 129.901767 seconds from start
+[22-Jan-2023 12:22:03] NOTICE: [pool www] child 23673 started
+[22-Jan-2023 12:36:51] NOTICE: fpm is running, pid 1579
+[22-Jan-2023 12:36:51] NOTICE: ready to handle connections
+[22-Jan-2023 13:01:27] WARNING: [pool www] child 4761 said into stderr: "Composer could not find a composer.json file in /shared/httpd/laravel/htdocs/public"
+[22-Jan-2023 13:01:27] WARNING: [pool www] child 4761 said into stderr: "To initialize a project, please create a composer.json file. See https://getcomposer.org/basic-usage"
+[22-Jan-2023 13:02:22] WARNING: [pool www] child 4878 said into stderr: "Composer could not find a composer.json file in /shared/httpd/laravel/htdocs/public"
+[22-Jan-2023 13:02:22] WARNING: [pool www] child 4878 said into stderr: "To initialize a project, please create a composer.json file. See https://getcomposer.org/basic-usage"
+[22-Jan-2023 13:03:59] NOTICE: Terminating ...
+[22-Jan-2023 13:03:59] NOTICE: exiting, bye-bye!
+[23-Jan-2023 07:40:13] NOTICE: fpm is running, pid 1580
+[23-Jan-2023 07:40:13] NOTICE: ready to handle connections
+[23-Jan-2023 07:44:21] NOTICE: Terminating ...
+[23-Jan-2023 07:44:21] NOTICE: exiting, bye-bye!
+[23-Jan-2023 15:11:14] NOTICE: fpm is running, pid 1578
+[23-Jan-2023 15:11:14] NOTICE: ready to handle connections
+[23-Jan-2023 16:03:37] NOTICE: Terminating ...
+[23-Jan-2023 16:03:37] NOTICE: exiting, bye-bye!
+[26-Jan-2023 05:50:18] NOTICE: fpm is running, pid 1578
+[26-Jan-2023 05:50:18] NOTICE: ready to handle connections
+[26-Jan-2023 06:08:53] NOTICE: Terminating ...
+[26-Jan-2023 06:08:53] NOTICE: exiting, bye-bye!

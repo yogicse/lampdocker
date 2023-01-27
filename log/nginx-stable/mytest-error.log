@@ -1,0 +1,2 @@
+2023/01/21 05:16:03 [error] 19244#19244: *115 directory index of "/shared/httpd/mytest/htdocs/" is forbidden, client: 172.16.238.1, server: mytest.dvl.to, request: "GET / HTTP/1.1", host: "mytest.dvl.to", referrer: "http://localhost/"
+2023/01/21 05:16:03 [error] 19244#19244: *115 open() "/shared/httpd/mytest/htdocs404" failed (2: No such file or directory), client: 172.16.238.1, server: mytest.dvl.to, request: "GET /favicon.ico HTTP/1.1", host: "mytest.dvl.to", referrer: "http://mytest.dvl.to/"
